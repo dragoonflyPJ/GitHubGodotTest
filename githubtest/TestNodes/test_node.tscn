@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://bl8ubpmx3j206"]
+
+[ext_resource type="Texture2D" uid="uid://cn5j7o2s8l8jp" path="res://icon.svg" id="1_vxjgc"]
+[ext_resource type="Script" path="res://TestNodes/testIconScr.gd" id="2_sap32"]
+[ext_resource type="Script" path="res://TestNodes/testCSharpScr.cs" id="3_7k0po"]
+
+[node name="TestNode" type="Node2D"]
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(110, 131)
+texture = ExtResource("1_vxjgc")
+script = ExtResource("2_sap32")
+
+[node name="Icon2" type="Sprite2D" parent="."]
+position = Vector2(267, 127)
+texture = ExtResource("1_vxjgc")
+script = ExtResource("3_7k0po")
+
+[node name="Icon3" type="Sprite2D" parent="."]
+position = Vector2(412, 128)
+texture = ExtResource("1_vxjgc")
