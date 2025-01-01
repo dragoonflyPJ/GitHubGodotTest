@@ -8,10 +8,10 @@ public partial class testCSharpScr : Sprite2D
  	Godot.Array<int> primes = new();
 		GD.Print("Prueba de Edicion desde GitHub, nueva cuenta 123");
   		for(int i = 0; i < 100; i++){
-    			bool prime = false;
+    			bool prime = true;
     			for(int ni = 0; ni < primes.Size(); ni++) {
       				if((float) i % ni == 0) {
-	  				prime = true; 
+	  				prime = false; 
       					 break;
       				}
 	  		if(prime) primes.Add(i);
