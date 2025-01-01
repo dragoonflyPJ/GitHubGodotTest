@@ -14,7 +14,10 @@ public partial class testCSharpScr : Sprite2D
 	  				prime = false; 
       					 break;
       				}
-	  		if(prime) primes.Add(i);
+	  		if(prime) {
+     				primes.Add(i);
+	 			GD.Print(i);
+    			}
     		}
 	}
 
